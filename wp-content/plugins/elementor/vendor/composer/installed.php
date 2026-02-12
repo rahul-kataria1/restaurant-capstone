@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'elementor/elementor',
+        'pretty_version' => '3.35.x-dev',
+        'version' => '3.35.9999999.9999999-dev',
+        'reference' => '09b350f04951be22be8d985d9101c879b7e31120',
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'elementor/elementor' => array(
+            'pretty_version' => '3.35.x-dev',
+            'version' => '3.35.9999999.9999999-dev',
+            'reference' => '09b350f04951be22be8d985d9101c879b7e31120',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'elementor/wp-notifications-package' => array(
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'reference' => 'dd25ca9dd79402c3bb51fab112aa079702eb165e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../elementor/wp-notifications-package',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'elementor/wp-one-package' => array(
+            'pretty_version' => '1.0.51',
+            'version' => '1.0.51.0',
+            'reference' => '407004e352fcbc89345ce8b28e7d63f4b0245aa6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../elementor/wp-one-package',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
